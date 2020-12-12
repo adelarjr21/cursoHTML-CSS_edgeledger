@@ -11,5 +11,5 @@
         //send email
         mail($admin_email, "New Form Submission", $message . ' - ' . $phone, "From:" . $email);
 
-        header('Location: https://adelarjr21.github.io/cursoHTML-CSS_edgeledger/success');
+        header('Location: https://adelarjr21.github.io/cursoHTML-CSS_edgeledger/success.html');
     }
